@@ -17,13 +17,13 @@ export default class Game extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("cielo", "../public/assets/Cielo.webp");
-    this.load.image("plataforma", "../public/assets/platform.png");
-    this.load.image("personaje", "../public/assets/Ninja.png");
-    this.load.image("triangulo", "../public/assets/triangulo.png");
-    this.load.image("cuadrado", "../public/assets/cuadrado.png");
-    this.load.image("rombo", "../public/assets/rombo.png");
-    this.load.image("bomba", "../public/assets/bomba.png");
+    this.load.image("cielo", "./public/Cielo.webp");
+    this.load.image("plataforma", "./public/platform.png");
+    this.load.image("personaje", "./public/Ninja.png");
+    this.load.image("triangulo", "./public/triangulo.png");
+    this.load.image("cuadrado", "./public/cuadrado.png");
+    this.load.image("rombo", "./public/rombo.png");
+    this.load.image("bomba", "./public/bomba.png");
   }
 
   create() {
